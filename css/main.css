@@ -1,0 +1,220 @@
+body {
+    /*Margen*/
+    margin: 0;
+    /*Margen pa' adentro*/
+    padding: 0;
+    /*Tamaño de fuente y tipografía*/
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/****************************************************************/
+/***************************************************************/
+/**********************************************************/
+/*Navegación*/
+
+header {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+header nav {
+    background-color: ;
+    display: flex;
+    /*Alinear a la derecha*/
+    justify-content: flex-end;
+}
+
+header nav .Seccion-derecha {
+    background-color: ;
+    width: 250px;
+    /*Eliminar puntos de la lista*/
+    list-style: none;
+    /*Flexibilidad al contenido*/
+    display: flex;
+    /*Centrar horizontalmente los elementos de la lista*/
+    justify-content: center;
+    /*Centramos verticalmente la lista*/
+    align-items: center;
+}
+
+a {
+    /*Eliminar linea de bajo del listado*/
+    text-decoration: none;
+}
+
+nav .Seccion-derecha a {
+    /*color de texto*/
+    color: rgb(21, 21, 21);
+    /*Margen entre mi listado*/
+    margin-right: 20px;
+}
+
+nav .Seccion-derecha .Menu {
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    /*Modifica el tamaño de la imagen al tamaño del contenedor*/
+    background-size: contain;
+    /*Para eliminar que se repita el elemento*/
+    background-repeat: no-repeat;
+}
+
+nav .Seccion-derecha img {
+    /*Redondear bordes*/
+    border-radius: 30px;
+    /*Margen izquierdo de la imagen*/
+    margin-left: 20px;
+    width: 35px;
+}
+
+main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: :530px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main .main-logo img {
+    height: 120px;
+}
+
+/*Seccion input*/
+main .main-input {
+    width: 550px;
+    margin: 0 auto;
+    /*Separación entre buscador y botenes de busqueda*/
+    margin-bottom: 40px;
+}
+
+/*Caja con bordes redondeados*/
+main .main-input-container {
+    border: 1px solid #dfe1e5;
+    /*bordes redondeados*/
+    border-radius: 25px;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*cajita de inpu*/
+main .main-input input {
+    height: 30px;
+    border: none;
+    /*outline:Borde cuando seleccionas elemento*/
+    outline: none;
+    width: 430px;
+}
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+background-size: contain;
+padding-left: 5%;
+background-repeat: no-repeat;
+background-position: center;
+height: 15px;
+
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+height: 17px;
+padding: 1%;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+background-position: center;
+background-size: contain;
+width: 17px;
+height: 17px;
+background-repeat: no-repeat;
+padding-right: 6%;
+}
+
+/*Botones*/
+main .main-buttons{
+   
+    width: 550px;
+    /*Vertical-horizontal*/
+    margin:0 auto;
+}
+
+main .main-buttons div{
+    /*Colocar botones en la misma linea*/
+    display: inline-block;
+}
+
+main .main-buttons button{
+    background-color: #d9dbdd77;
+    border: none;
+    height: 30px;
+    font-size: 14px;
+    color: #3c4043;
+    padding: 0 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+/*Sombra al pasar mouse*/
+main .main-input-container:hover{
+    box-shadow: 1px 1px 5px #2e374177;
+}
+
+main .main-buttons button:hover{
+    color: #202124;
+    border: 1px solid #dadce0;
+    box-shadow: 2px 1px 3px #2e374177;
+}
+
+footer{
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+    font-size: 14px;
+    margin: 350 auto;
+}
+
+footer .footer-left{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    align-items: center;
+
+}
+
+footer .footer-left a{
+    color: #70757a;
+    margin: 30px;
+}
+
+footer .footer-right{
+      list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+footer .footer-right a{
+    color: #70757a;
+    margin: 30px;
+}
+
