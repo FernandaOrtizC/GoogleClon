@@ -177,15 +177,18 @@ main .main-buttons button:hover{
 }
 
 footer{
-    width: 100%;
-    display:flex ;
-    justify-content: center;
-    background-color: #f2f2f2;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border-top: 1px solid #dadce0;
-    font-size: 14px;
-    margin: 350 auto;
+    
+        background-color: #f2f2f2;
+        width: 100%; /* ancho */
+        height: 100px; /* Alto */
+        position: absolute;
+        font-size: 13px;
+        display: grid; /* se separa en columnas*/
+        grid-template-columns: 1fr 1fr; /* ocupará 2 columnas */
+        align-items: center;
+        border-top: 1px solid #e4e4e4;
+        bottom: 0%;
+    
 }
 
 footer .footer-left{
